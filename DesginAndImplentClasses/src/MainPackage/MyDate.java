@@ -9,9 +9,9 @@ public class MyDate{
 
 	public MyDate(String year, String month, String day) {
 		// TODO Auto-generated constructor stub
-		this.setYear(year);
-		this.setMonth(month);
-		this.setDay(day);
+		this.year = year;
+		this.month = month;
+		this.day = day;
 	}
 
 	/**

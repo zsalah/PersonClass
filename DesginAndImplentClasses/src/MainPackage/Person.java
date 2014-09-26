@@ -10,9 +10,9 @@ public class Person {
 	public Person(String name, String address, String phoneNumber, String email) {
 		// TODO Auto-generated constructor stub
 		this.name = name;
-		this.setAddress(address);
-		this.setPhoneNumber(phoneNumber);
-		this.setEmail(email);
+		this.address = address;
+		this.phoneNumber = phoneNumber;
+		this.email = email;
 	
 	}
 	 /**

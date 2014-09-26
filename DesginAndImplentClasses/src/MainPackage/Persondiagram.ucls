@@ -3,8 +3,8 @@
   associations="true" dependencies="false" nesting-relationships="true">  
   <class id="1" language="java" name="MainPackage.Person" project="DesginAndImplentClasses" 
     file="/DesginAndImplentClasses/src/MainPackage/Person.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="620" y="159"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+    <position height="368" width="221" x="283" y="10"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="MainPackage.Student" project="DesginAndImplentClasses" 
     file="/DesginAndImplentClasses/src/MainPackage/Student.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="329" y="109"/>    
+    <position height="-1" width="-1" x="393" y="630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="MainPackage.Employee" project="DesginAndImplentClasses" 
     file="/DesginAndImplentClasses/src/MainPackage/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="325" y="435"/>    
+    <position height="-1" width="-1" x="882" y="195"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="MainPackage.Faculty" project="DesginAndImplentClasses" 
     file="/DesginAndImplentClasses/src/MainPackage/Faculty.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="616" y="458"/>    
+    <position height="-1" width="-1" x="695" y="630"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="MainPackage.Staff" project="DesginAndImplentClasses" 
     file="/DesginAndImplentClasses/src/MainPackage/Staff.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="625" y="716"/>    
+    <position height="-1" width="-1" x="1089" y="643"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
       visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -47,20 +47,20 @@
     </display>  
   </class>  
   <generalization id="6">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="7">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="8">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
-  <generalization id="9">    
+  <generalization id="7">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     accessors="true" visibility="true">    
